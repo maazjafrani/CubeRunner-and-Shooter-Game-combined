@@ -776,6 +776,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{77AB6018-5884-189D-2BAD-C11EB2AECA2B}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeapMotion.LeapCSharp.csproj">
+      <Project>{C00F0B75-AC9E-ED83-2269-7B400F99CD13}</Project>
+      <Name>LeapMotion.LeapCSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeapMotion.csproj">
+      <Project>{7B3293E5-AC4B-C7F4-D4D4-B55AB71BF2D8}</Project>
+      <Name>LeapMotion</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
